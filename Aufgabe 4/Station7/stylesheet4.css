@@ -1,0 +1,34 @@
+body {
+    background-image: url("bg.png");
+
+}
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:auto;
+    margin-top: 200px;
+}
+.wrapper {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+}
+.video{
+    position: absolute;
+    display: inline-block;
+    top:335px;
+}
+.wrapperband{
+    position: absolute;
+    display: inline-block;
+    top:577px;
+    left:1030px;
+    z-index: 100;
+}

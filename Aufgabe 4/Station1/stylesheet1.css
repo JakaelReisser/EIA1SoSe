@@ -1,0 +1,44 @@
+body {
+    background-image: url("bg.png");
+
+}
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:auto;
+    margin-top: 200px;
+}
+.penguin {
+    position: absolute;
+    display: inline-block;
+    margin-left: 370px;
+    margin-top: 100px;
+
+}
+.shells{
+    position:absolute;
+    display: inline-block;
+    top: 490px;
+    left: 600px
+}
+.Überschrift {
+    position:absolute;
+    display:inline-block;
+    top: 250px;
+    font-size: 27px;
+    color: white;
+}
+b {
+    color:red;
+}
+.Text{
+    position:absolute;
+    display:inline-block;
+    top: 300px;
+    font-size:20px;
+    color:whitesmoke
+    
+}

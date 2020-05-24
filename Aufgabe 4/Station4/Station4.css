@@ -1,0 +1,27 @@
+body{
+    text-align:center;
+    background-image: url(hithere.jpg)
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:auto;
+    margin-top: 200px;
+}
+.Formular{
+    display:inline-block;
+    color:white;
+    position:absolute;
+    top:230px;
+
+}
+plswork{
+    color:white;
+    display:inline-block;
+     position:absolute;
+     top:310px;
+}
