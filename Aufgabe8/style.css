@@ -1,0 +1,53 @@
+h1{
+    color:white
+}
+body {
+    background-image: url("eminem.jpg");
+
+}
+button{
+    background-color: lime;
+    display: inline-block;
+    cursor: pointer;
+    border-style:none;
+    border-radius: 12px;
+    margin: 10px;
+    height: 135px;
+    width: 135px;
+
+}
+
+#drumpad {
+    text-align:center;
+    height:500px;
+    width:500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+}
+
+button:hover{
+    background-color: violet; 
+}
+
+.fas{
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+    font-size: 100px;
+    padding-left: 420px; /*blaze it*/
+    padding-top: 20px;
+}
+
+.fas:hover{ 
+    color: #822c8a;
+}
+
+.fa-stop{
+    color: rgb(83, 23, 107);
+}
+
+.fa-stop:hover{
+    color: rgb(73, 9, 82);
+    
+}
