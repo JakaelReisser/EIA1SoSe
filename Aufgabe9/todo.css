@@ -1,0 +1,23 @@
+#input{
+    width: 550px;
+}
+
+body {
+    background-color: #A9C2AE;
+    font-size: large;
+    text-align: center;
+
+        background-image: url("1c3f76c36819dcff58b9b9a1ebb5a990.jpg");
+    
+}
+
+#newAdd{
+    size: 400px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+}
+h1, p {
+    color: white;
+}
