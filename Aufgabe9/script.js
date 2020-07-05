@@ -22,4 +22,29 @@ window.addEventListener("load", function () {
         console.log(todoListe);
     });
 });
+var close = document.getElementsByClassName("fas fa-trash-alt");
+var i;
+for (i = 0; i < close.length; i++) {
+    close[i].onclick = function () {
+        var div = this.parentElement;
+        div.style.display = "none";
+        count--;
+        document.getElementById("#mySpan").innerHTML = String(count);
+    };
+}
+var Liste2 = document.querySelector(".addlist");
+drawList();
+// tslint:disable-next-line: typedef
+var total = document.querySelector("#mySpan");
+total.innerHTML = todoListe.length;
+var input = document.querySelector("#newAdd");
+console.log(input);
+var addNewElement = document.querySelector("#button1");
+addNewElement.addEventListener("click", function () {
+    todoListe.push(input.value);
+    drawList();
+    input.value = "";
+    console.log(todoListe);
+});
+;
 //# sourceMappingURL=script.js.map
